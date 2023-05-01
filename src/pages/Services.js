@@ -160,7 +160,7 @@ function Services() {
 
          <View
             textAlign="center"
-            margin="1rem"
+            marginBottom="2rem"
             display="flex"
             alignItems="center"
             justifyContent=" center"

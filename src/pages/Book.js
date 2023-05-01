@@ -124,9 +124,9 @@ function Book() {
          <main>
             <View textAlign="center" margin="2rem">
                <Heading level={2}>
-                  <Link href="tel:9417447627">
-                     Click here to book your appointment now!
-                  </Link>
+                  Click&nbsp;
+                  <Link href="tel:9417447627">here</Link>&nbsp;to book your
+                  appointment now
                </Heading>
             </View>
          </main>

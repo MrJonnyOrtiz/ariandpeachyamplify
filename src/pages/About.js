@@ -135,7 +135,7 @@ function About() {
                   width="375px"
                   alt="owners, Arianna and Brianna"
                />
-               <figcaption>Owners: Arianna and Brianna Ortiz</figcaption>
+               <figcaption>Owners: Arianna Ortiz and Brianna Ortiz</figcaption>
             </figure>
          </View>
          <View textAlign="center">
@@ -145,9 +145,12 @@ function About() {
                paddingLeft="3rem"
                paddingRight="3rem"
             >
-               Serenity Springs is your destination for your favorite salon and
-               spa treatments. Our salon products are handmade and eco-friendly.
-               We love helping our customers live beautifully.
+               Serenity springs is run by sisters Arianna and Brianna Ortiz.
+               They both graduated from Erwin Technical College; Arianna with a
+               license in Cosmetology and Brianna in Massage Therapy. We started
+               this journey because we’ve always loved helping people. Our
+               desire is to help people feel their best from the inside out
+               while offering the cleanest products and services! .
             </View>
          </View>
          <footer>
