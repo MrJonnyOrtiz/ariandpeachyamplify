@@ -21,7 +21,7 @@ export default function ItemCard(props) {
       position="relative"
       border="1px SOLID rgba(153,155,132,1)"
       padding="16px 16px 16px 16px"
-      backgroundColor="rgba(255,255,255,1)"
+      backgroundColor="rgba(239,217,209,1)"
       {...getOverrideProps(overrides, "ItemCard")}
       {...rest}
     >

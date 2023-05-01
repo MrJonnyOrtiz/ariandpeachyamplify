@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { NavBar, SSservices, ItemCard, Footer } from "../ui-components";
+import { View } from "@aws-amplify/ui-react";
+
 import { useNavigate } from "react-router-dom";
 
 function Services() {
@@ -144,12 +146,25 @@ function Services() {
          <div>
             <NavBar overrides={navBarOverrides} />
          </div>
-         <div>
+         <View
+            textAlign="center"
+            margin="1rem"
+            display="flex"
+            alignItems="center"
+            justifyContent=" center"
+         >
             {showDetails && (
                <ItemCard service={service} overrides={itemCardOverrides} />
             )}
-         </div>
-         <div>
+         </View>
+
+         <View
+            textAlign="center"
+            margin="1rem"
+            display="flex"
+            alignItems="center"
+            justifyContent=" center"
+         >
             <SSservices
                itemsPerPage={8}
                overrideItems={({ item, index }) => ({
@@ -192,7 +207,7 @@ function Services() {
                   },
                })}
             />
-         </div>
+         </View>
          <footer>
             <Footer overrides={footerOverrides} />
          </footer>
