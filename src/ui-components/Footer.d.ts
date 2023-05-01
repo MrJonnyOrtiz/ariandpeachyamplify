@@ -16,8 +16,8 @@ export declare type FooterOverridesProps = {
     "Frame 403"?: PrimitiveOverrideProps<FlexProps>;
     "Quick Links:"?: PrimitiveOverrideProps<TextProps>;
     Services?: PrimitiveOverrideProps<TextProps>;
-    About?: PrimitiveOverrideProps<TextProps>;
     Book?: PrimitiveOverrideProps<TextProps>;
+    About?: PrimitiveOverrideProps<TextProps>;
     "Frame 404"?: PrimitiveOverrideProps<FlexProps>;
     "Follow Us:"?: PrimitiveOverrideProps<TextProps>;
     Facebook?: PrimitiveOverrideProps<TextProps>;

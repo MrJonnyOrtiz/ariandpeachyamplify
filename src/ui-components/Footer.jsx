@@ -150,8 +150,8 @@ export default function Footer(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="About"
-            {...getOverrideProps(overrides, "About")}
+            children="Book"
+            {...getOverrideProps(overrides, "Book")}
           ></Text>
           <Text
             fontFamily="Playfair Display"
@@ -172,8 +172,8 @@ export default function Footer(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Book"
-            {...getOverrideProps(overrides, "Book")}
+            children="About"
+            {...getOverrideProps(overrides, "About")}
           ></Text>
         </Flex>
         <Flex
