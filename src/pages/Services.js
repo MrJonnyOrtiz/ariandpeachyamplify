@@ -166,7 +166,7 @@ function Services() {
             justifyContent=" center"
          >
             <SSservices
-               itemsPerPage={8}
+               itemsPerPage={4}
                overrideItems={({ item, index }) => ({
                   overrides: {
                      // override style
