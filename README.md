@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Salon and Spa Web Application using AWS Amplify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application for a salon and spa company that uses AWS Amplify as the backend. This web application provides a user-friendly interface to view salon and spa services online.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, you need to follow the instructions below:
 
-### `npm start`
+1. Clone the repository to your local machine using the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```
+   git clone https://github.com/MrJonnyOrtiz/ariandpeachyamplify.git
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Change the directory to the project folder using the following command:
 
-### `npm test`
+   ```
+   cd aariandpeachyamplify
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the project dependencies by running the following command:
 
-### `npm run build`
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Go to the AWS Amplify console and setup a backend with a table Service and fields name (string), description (string), type (string), price (float), image (string), then create table entries.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Use the following Figma file for the front end - https://www.figma.com/file/PKzSTKsVaivuckXkeTTN3j/AWS-Amplify-UI-Kit-(Community)?node-id=2976%3A6985&t=VhE73riBh85GMNBW-1 - and configure the NavBar, ItemCard, HeroLayout1Mode3, Footer, and SSserviceCard to SSservices collection components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Follow AWS Amplify installation instructions and how to use components instructions locally.
 
-### `npm run eject`
+7. Run the application using the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This web application has the following features:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-  Backend API
+-  AWS Studio UI library used to show salon and spa services
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The following technologies were used to develop this web application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-  React
+-  AWS Amplify
+-  AWS AppSync
+-  AWS DynamoDB
+-  AWS S3
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you want to contribute to this project, please follow the instructions below:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under MIT
